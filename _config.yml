@@ -1,29 +1,41 @@
-name: Pilacca
-favicon: null
-layout_spectrum: 0.34696725313551724
-typography_spectrum: 0.047449270030483603
 title: Pilacca - Fried Hot Pepper Sauce
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 1
+  brandStrength: 0.9139785
+  lightness: 0.6003584
+  brandColors:
+    - '#0E0B0A'
+    - '#FFFFFF'
+    - '#776F53'
+    - '#E1990C'
+    - '#0D5C89'
+  rhythmicContrast: 1
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+favicon: null
+name: Pilacca
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#E0FBFC'
-    - '#C2DFE3'
-    - '#9DB4C0'
-    - '#5C6B73'
-    - '#253237'
-  brandStrength: 0.9601002128329128
-  lightness: 0.8888502269983292
-  saturation: 0.0359247128944844
-  rhythmicContrast: 0.5991910432931036
-purpose: []
+typography_spectrum: 0.5250896
+layout_spectrum: 0.5537634
