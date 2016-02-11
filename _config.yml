@@ -6,15 +6,15 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 color:
   saturation: 0.7777778
-  brandStrength: 0.4301075
+  brandStrength: 0.8243728
   lightness: 0.4050179
   brandColors:
     - '#5B1F16'
@@ -22,7 +22,7 @@ color:
     - '#FDFFF1'
     - '#9A6542'
     - '#39F166'
-  rhythmicContrast: 1
+  rhythmicContrast: 0.4462366
 cta:
   bucket: null
   version: null
@@ -31,8 +31,8 @@ analytics:
   twitter: null
   google: null
   facebook: null
-favicon: null
 name: Pilacca
+favicon: null
 opengraph:
   image: null
   type: null
