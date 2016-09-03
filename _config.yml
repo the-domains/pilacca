@@ -1,41 +1,41 @@
-name: Pilacca
-favicon: null
-layout_spectrum: 0.08214
-typography_spectrum: 0.52362
 title: Pilacca - Fried Chili Pepper Sauce
+purpose: []
 collections:
   - index:
       path: /
       number: 15
       paginate: true
       navigable: true
+    permalink:
+      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-    permalink:
-      path: '/:title/'
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: UA-77742344-1
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
 color:
+  saturation: 0.8125
+  brandStrength: 0.25
+  rhythmicContrast: 0.5
   brandColors:
     - '#ffffff'
     - '#201e1f'
     - '#981701'
     - '#bbb4a1'
     - '#b95544'
-  brandStrength: 0.25
   lightness: 0.5
-  saturation: 0.8125
-  rhythmicContrast: 0.5
-purpose: []
+cta:
+  bucket: null
+  version: null
+  domain: null
+favicon: null
+name: Pilacca
+analytics:
+  twitter: null
+  google: UA-77742344-1
+  facebook: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.7867383
+layout_spectrum: 0.4265233
